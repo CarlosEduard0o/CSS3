@@ -1,2 +1,2 @@
 # CSS3
-Conteúdo voltado ao CSS3
+Conteúdo voltado para CSS3
