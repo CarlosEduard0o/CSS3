@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>CSS3: Bordas</title>
+	<style type="text/css">
+		#solid{
+			border: 15px solid green;
+			padding: 5px;
+		}
+		#dotted{
+			border: 15px dotted darkred;
+			padding: 5px;
+		}
+		#dashed{
+			border: 15px dashed blueviolet;
+			padding: 5px;
+		}
+		#double{
+			border: 15px double yellowgreen;
+			padding: 5px;
+		}
+		#groove{
+			border: 15px groove slategray;
+			padding: 5px;
+		}
+		#ridge{
+			border: 15px ridge orangered;
+			padding: 5px;
+		}
+		#inset{
+			border: 15px inset blueviolet;
+			padding: 5px;
+		}
+		#outset{
+			border: 15px outset purple;
+			padding: 5px;
+		}
+		#none{
+			border: 15px none aquamarine;
+			padding: 5px;
+		}
+		#hidden{
+			border: 15px hidden black;
+			padding: 5px;
+		}
+		#cada_lado_cor{
+			border-color: red green blue yellow;
+			border-style: outset;
+			border-width: 15px;
+		}
+		#cada_lado_tamanho{
+			border-color: red green blue yellow;
+			border-style: outset;
+			border-width: 5px 20px 35px 50px;
+		}
+		#cada_lado_estilo{
+			border-color: red green blue yellow;
+			border-style: outset dotted solid groove;
+			border-width: 15px;
+		}
+		#dois_valores{
+			border-color: red green ;
+			border-style: solid dotted;
+			border-width: 15px 30px;
+		}
+	</style>
+</head>
+<body>
+	<div id="solid">
+		Borda do estilo Solid
+	</div>
+	<div id="dotted">
+		Borda do estilo dotted
+	</div>
+	<div id="dashed">
+		Borda do estilo dashed
+	</div>
+	<div id="double">
+		Borda do estilo double
+	</div>
+	<div id="groove">
+		Borda do estilo groove
+	</div>
+	<div id="ridge">
+		Borda do estilo ridge
+	</div>
+	<div id="inset"> 
+		Borda do estilo inset
+	</div>
+	<div id="outset">
+		Borda do estilo outset
+	</div>
+	<div id="none">
+		Borda do estilo none
+	</div>
+	<div id="hidden">
+		Borda do estilo hidden
+	</div>
+	<div id="cada_lado_cor">
+		Deixando cada lado da borda com uma cor diferente!
+	</div><br>
+	<div id="cada_lado_tamanho">
+		Deixando cada lado da borda com um tamanho diferente!
+	</div><br>
+	<div id="cada_lado_estilo">
+		Deixando cada lado da borda com um estilo diferente!
+	</div> <br>
+	<div id="dois_valores">
+		Agora estou aplicando somente dois valores em border-color, border-width e border-style!
+	</div>
+</body>
+</html>
